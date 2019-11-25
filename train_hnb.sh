@@ -1,0 +1,1 @@
+python3 main_hnb_2hop.py  --batch_size 4096 --epoch 150 --dataset amazon-book --eta 3 --embed_size 100 --save_epoch 5
