@@ -14,15 +14,15 @@ HANABI (HNB) is a recommendation framework based on graph embedding collaborativ
 There are 7 baseline models used for comparative purpose in our experiments. To help reproduce the results on the paper, we summarized all models as follows:
 
 - Matrix Factorization (MF) : [Implementaion by LightFM](https://github.com/lyst/lightfm)
-- Bayesian Pairwise Reranking MF (BPR) : **included this repository**.
+- Bayesian Pairwise Reranking MF (BPR) : **included in this repository**.
 - Neural Matrix Factorization (NMF) : https://github.com/hexiangnan/neural_collaborative_filtering
 - Collaborative Memory Network (CMN) : https://github.com/tebesu/CollaborativeMemoryNetwork
 
 - High-Order Proximity Recommendation (HOP-Rec) : https://github.com/cnclabs/smore
-- Collaborative Similarity Embedding (RANKCSE) : **included this repository**.
+- Collaborative Similarity Embedding (RANKCSE) : **included in this repository**.
 - Neural Graph Collaborative Filtering (NGCF) : https://github.com/xiangwang1223/neural_graph_collaborative_filtering
 
-- HANABI: Conditional Proximity Graph Embedding (HNB) : **included this repository**.
+- HANABI: Conditional Proximity Graph Embedding (HNB) : **included in this repository**.
 
 
 ## Environment Requirement
