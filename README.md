@@ -160,4 +160,3 @@ Here we provide examples of training HNB on different dataset. Note that, by sim
   ```
   python3 main_hnb_2hop.py  --batch_size 4096 --epoch 100 --dataset amzbook --eta 3 --embed_size 100 --save_epoch 5
   ```
-
