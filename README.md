@@ -1,7 +1,6 @@
 # HANABI: Graph Embedding for Recommendation via Conditional Proximity
 This is our implementation for the paper, including **all datasets** used and **most baseline models** as well as the proposed **HNB**.
 
-
 ## Double-Blind Submission
 
 For fair and respectful submission, the **Implementation is Anonymized** with all authors' information removed.
