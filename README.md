@@ -3,10 +3,10 @@
 This is our implementation for the paper.
 
 In this repository, all the following parts are included:
-  - **all datasets** used in the paper
-  - **all baseline models** for comparison
-  - the proposed **HNB model**
-  - **quick start** instruction for training & evaluation
+  - **All datasets** used in the paper
+  - **All baseline models** for comparison
+  - The proposed **HNB model**
+  - **Quick Start** instruction for training & evaluation
 
 ----
 
