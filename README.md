@@ -1,13 +1,20 @@
 # HANABI: Graph Embedding for Recommendation via Conditional Proximity
-This is our implementation for the paper, including **all datasets** used and **most baseline models** as well as the proposed **HNB**.
+
+This is our implementation for the paper.
+
+In this repository, all the following parts are included:
+  - **all datasets** used in the paper
+  - **all baseline models** for comparison
+  - the proposed **HNB model**
+  - **quick start** instruction for training & evaluation
 
 
-## Double-Blind Submission
+### Double-Blind Submission
 
 In order to have a fair and respectful submission, the **Implementation is Anonymized** with all authors' information removed.
 
 
-## Introduction
+### Introduction
 
 HANABI (HNB) is a recommendation framework based on graph embedding collaborative filtering, conditionally encoding the imformation flowing from high-order end nodes through intermediate nodes to source nodes.
 
@@ -25,7 +32,7 @@ There are 7 baseline models used for comparative purpose in our experiments. To 
 - HANABI: Conditional Proximity Graph Embedding (HNB) : **included in this repository**.
 
 
-## Environment Requirement
+### Environment Requirement
 
 The code has been tested running under Python 3.5. The required packages are as follows:
 
@@ -38,7 +45,7 @@ torch
 ```
 
 
-## Dataset
+### Dataset
 
 All datasets used in the experiments are provided. 
 
@@ -73,13 +80,13 @@ Please **download** the preprocessed datasets and **save in `./data/`**.
   ```
 
 
-## Evaluation
+### Evaluation
 
 To save your training time, checkpoints of each model on various datasets are provided.
 
 Please **download** the embedding checkpoints and **save in `./saved_embeddings/`**.
 
-### Checkpoints:
+#### Checkpoints:
 
 - **BPR Embedding**:
 
@@ -121,7 +128,7 @@ Please **download** the embedding checkpoints and **save in `./saved_embeddings/
   ```
 
 
-### Evaluation Example:
+#### Evaluation Example:
 
 ```sh
 python3 ./eval_files/eval_AMZ_B.py --saved_emb emb_name --emb_size 100 --top_k 20
@@ -133,7 +140,7 @@ python3 ./eval_files/eval_AMZ_B.py --saved_emb emb_name --emb_size 100 --top_k 2
 ```
 
 
-## Training Example
+### Training Example
 
 Here we provide examples of training HNB on different dataset. Note that, by simply removing the `--eta` and replacing with desired model, the configuration can also be applied in training `BPR` and `CSE`.
 
