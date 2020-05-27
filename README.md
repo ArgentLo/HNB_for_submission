@@ -2,7 +2,8 @@
 
 This is our implementation for the paper.
 
-In this repository, all the following parts are included:
+In this repository, all the following parts are included to *support reproductivity and reliablity* of the manuscript.
+
   - **All datasets** used in the paper
   - **All baseline models** for comparison
   - The proposed **HNB model**
