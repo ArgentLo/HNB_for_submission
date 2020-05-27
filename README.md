@@ -8,6 +8,7 @@ In this repository, all the following parts are included:
   - the proposed **HNB model**
   - **quick start** instruction for training & evaluation
 
+----
 
 ### Double-Blind Submission
 
@@ -31,6 +32,7 @@ There are 7 baseline models used for comparative purpose in our experiments. To 
 
 - HANABI: Conditional Proximity Graph Embedding (HNB) : **included in this repository**.
 
+----
 
 ### Environment Requirement
 
@@ -44,6 +46,7 @@ networkx
 torch
 ```
 
+----
 
 ### Dataset
 
@@ -79,6 +82,7 @@ Please **download** the preprocessed datasets and **save in `./data/`**.
   https://drive.google.com/open?id=1m_RbYu_iRODtpOQXGO_ymfUYuDxOt2DS
   ```
 
+----
 
 ### Evaluation
 
@@ -127,7 +131,6 @@ Please **download** the embedding checkpoints and **save in `./saved_embeddings/
   https://drive.google.com/open?id=14ljCSSIdMLeyqNg-xPz__AUHuUnt5e7h
   ```
 
-
 #### Evaluation Example:
 
 ```sh
@@ -139,6 +142,7 @@ python3 ./eval_files/eval_AMZ_B.py --saved_emb emb_name --emb_size 100 --top_k 2
 # eval_ML1M.py
 ```
 
+----
 
 ### Training Example
 
